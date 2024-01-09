@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap">
+    <link rel="icon" href="images/clipboard-list-solid.svg">
+    <script src="https://kit.fontawesome.com/351a58a21e.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Add Page</title>
+</head>
+<body id="body-for-add-page">
+    <main class="for-add-page">
+        <p>Add a new task here</p>
+
+        <div class="add-page-main">
+            <label for="task-name">
+                Task Title
+                <input type="text" name="task-title" id="task-title">
+            </label>
+            <label for="task-description">
+                Task Description
+                <textarea name="task-description" id="task-description"></textarea>
+            </label>
+            <label for="priority">
+                <span>Priority</span>
+                <label for="High">
+                    <input type="radio" name="options" id="High"> High
+                </label>
+                <label for="Medium">
+                    <input type="radio" name="options" id="Medium"> Medium
+                </label>
+                <label for="Low">
+                    <input type="radio" name="options" id="Low"> Low
+                </label>
+            </label>
+            <div class="actions">
+                <div class="save-btn">
+                    <p>Save</p>
+                </div>
+                <div class="cancel-btn">
+                    <p>Cancel</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
